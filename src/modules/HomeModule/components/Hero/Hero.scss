@@ -1,0 +1,57 @@
+.hero{
+    background: url('/public/images/mobileHeroBcg.jpg');
+    height: 532px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+
+    & &__content{
+        margin: 0 16px;
+        display: flex;
+        gap: 16px;
+        flex-direction: column;
+        margin-top: auto;
+        color: #fff;
+    }
+
+    & &__rank{
+        display: flex;
+        gap: 16px;
+        align-items: center;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 1em;
+    }
+
+    & &__rankIcon{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        width: 32px;
+        height: 32px;
+        border-radius: 9.6px;
+        background-color: #DE4129;
+        text-transform: uppercase;
+        font-weight: 600;
+        font-size: 10px;
+        line-height: 1em;
+        & span:first-child{
+            font-size: 8px;
+            
+        }
+    }
+
+    & &__title{
+        height: 70px;
+        max-width: 269px;
+    }
+
+    & &__description{
+        font-size: 15px;
+        font-weight: 500;
+        line-height: 1.2em;
+    }
+}

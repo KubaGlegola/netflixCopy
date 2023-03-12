@@ -1,0 +1,11 @@
+.header{
+    position: fixed;
+    padding: 24px 16px;
+    backdrop-filter: blur(8px);
+    width: 100vw;
+
+    & > img{
+        width: 57px;
+        height: 16px;
+    }
+}
