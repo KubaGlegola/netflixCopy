@@ -1,0 +1,29 @@
+@import 'swiper/scss';
+
+
+.swiper-slide{
+    min-width: 218px;
+    max-height: 140px;
+    & > img{
+        width: 100%;
+    }
+}
+
+
+// .carousel{
+//     display: flex;
+//     gap: 8px;
+//     // scroll-snap-type: x mandatory;
+//     // scroll-snap-align: center;
+    
+
+//     & &__item{
+//         width: 218px;
+//         height: 140px;
+//         margin: 0;
+
+//         &>img{
+//             width: 100%;
+//         }
+//     }
+// }

@@ -1,0 +1,29 @@
+.section{
+    display: flex;
+    flex-wrap: wrap;
+    color: #fff;
+    font-weight: 600;
+    gap: 16px;
+
+    & &__title{
+        display: block;
+        max-width: 130px;
+        font-size: 18px;
+        line-height: 1em;        
+        letter-spacing: -0.03em;
+    }
+    
+    & &__link{
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        gap: 4px;
+        color: #fff;
+        flex-grow: 1;
+        align-self: flex-end;
+        font-size: 14px;
+        line-height: 1.2em;
+        letter-spacing: -0.01em;
+    }
+   
+}

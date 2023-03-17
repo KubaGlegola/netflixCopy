@@ -1,17 +1,11 @@
-.hero{
-    background: url('/public/images/mobileHeroBcg.jpg');
-    height: 532px;
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
+.hero{          
     display: flex;
 
     & &__content{
-        margin: 0 16px;
+        margin: 170px 0 0;
         display: flex;
         gap: 16px;
         flex-direction: column;
-        margin-top: auto;
         color: #fff;
     }
 
@@ -22,6 +16,7 @@
         font-weight: 700;
         font-size: 16px;
         line-height: 1em;
+        letter-spacing: -0.03em;
     }
 
     & &__rankIcon{
@@ -40,7 +35,6 @@
         line-height: 1em;
         & span:first-child{
             font-size: 8px;
-            
         }
     }
 
@@ -50,8 +44,54 @@
     }
 
     & &__description{
-        font-size: 15px;
+        font-size: 14px;
         font-weight: 500;
         line-height: 1.2em;
+        letter-spacing: -0.01em;
+    }
+
+    & &__buttonsContainer{
+        margin-top: 8px;
+        display: flex;
+        gap: 12px;
+    }
+
+    @media (min-width: 768px){
+        & &__content{
+            margin: 172px 0 88px;
+            width: 535px;
+            gap: 24px;
+        }
+
+        & &__rank{
+            font-size: 24px;
+            letter-spacing: -0.03em;
+        }
+    
+        & &__rankIcon{
+            width: 40px;
+            height: 40px;
+            border-radius: 12px;
+            font-size: 16px;
+            & span:first-child{
+                font-size: 10px;
+            }
+        }
+    
+        & &__title{
+            height: 112px;
+            max-width: 425px;
+        }
+    
+        & &__description{
+            font-size: 18px;
+            letter-spacing: -0.03em;
+        }
+    
+        & &__buttonsContainer{
+            margin-top: 16px;
+            display: flex;
+            gap: 12px;
+        }
     }
 }

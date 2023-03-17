@@ -1,0 +1,15 @@
+.homePage{
+    background: url('/images/mobileHeroBcg.jpg');
+    background-position: center top;
+    background-size: auto 532px;
+    background-repeat: no-repeat;
+    padding: 0 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+
+    @media (min-width: 768px){
+        padding: 24px 40px;
+        background-size: auto 810px;
+    }
+}
